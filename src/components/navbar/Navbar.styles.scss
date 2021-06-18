@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat&display=swap');
+.navbar {
+  position:sticky;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.logo-link {
+  height: 100%
+}
+.navbar-logo{
+  height: 100%;
+}
+.navbar-nav {
+  margin-right: 30px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-item {
+  margin: 0 15px;
+  height: 60px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: transparent solid 5px;
+}
+.navbar-item:hover {
+  border-bottom: #243665 solid 5px;
+  cursor: pointer;
+}
+.navbar-link {
+  margin-top: 5px;
+  color: #243665;
+  font-size: 1.2rem;
+  font-family: 'work sans';
+
+}
+

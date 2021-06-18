@@ -1,0 +1,31 @@
+.newcomment {
+  height: 100%;
+  textarea {
+    resize: none;
+    width: calc(100% - 120px);
+    height: 56px;
+    outline: none;
+    border: none;
+  }
+  .send-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    height: 60px;
+    width: 120px;
+    border: none;
+    outline: none;
+    background-color: #243665;
+    i {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      color: white;
+    }
+    &:hover i{
+      color: #8BD8BD;
+    }
+  }
+}

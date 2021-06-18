@@ -1,0 +1,38 @@
+.createAd{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.realEstateTypeSelect {
+  width: 100%;
+  margin-top: 30px;
+  height: 50px;
+  background-color: #f5f7ff;
+  line-height: 50px;
+  font-size: 22px;
+  color: darkslategray;
+  border: none;
+  outline: none;
+  padding: 0 10% 0 5%;
+}
+.createAd-form-wrapper {
+  width: 840px;
+  margin-bottom: 150px;
+
+}
+.create-ad-form-left-right {
+  display: flex;
+  justify-content: space-between;
+}
+.create-ad-btn {
+  align-self: flex-end;
+}
+.filePickerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}

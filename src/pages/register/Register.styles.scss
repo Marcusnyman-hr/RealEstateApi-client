@@ -1,0 +1,39 @@
+.register {
+  height: calc(100% - 60px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.register-bg-container {
+  position: absolute;
+  overflow: hidden;
+  z-index: -99;
+  top: 60px;
+  left: 0;
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: url('../../assets/img/ws_White_&_Blue_Interior_1920x1080.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(60%);
+}
+
+.form-wrapper {
+  width: 440px;
+  margin-bottom: 150px;
+
+}
+
+.login-link {
+  margin-top: 15px;
+  &:hover {
+    opacity: .7;
+  }
+}

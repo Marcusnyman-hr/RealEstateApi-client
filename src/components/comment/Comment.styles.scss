@@ -1,0 +1,13 @@
+.comment {
+  padding: 10px;
+  color: White;
+  font-family: 'work sans';
+  font-size: 14px;
+}
+.comment:nth-child(even) {
+  background-color: #273b6d;
+}
+.comment-date {
+  font-size: 12px;
+  opacity: .7;
+}

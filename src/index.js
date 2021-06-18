@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { AuthTokenProvider } from './context/AuthTokenContext';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <AuthTokenProvider>
+  <App />
+  </AuthTokenProvider>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,43 @@
+.landing-hero {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: url('../../assets/img/featured-blog-interior-design-trends-2020-scaled.jpg') no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.landing-hero-content-text {
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  top: 11%;
+  left: 33%;
+}
+h1 {
+  color: white;
+  font-size: 74px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.landing-hero-cta-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  left: 43%;
+  height: 80px;
+  width: 350px;
+  background-color: #1d3161;
+  border: none;
+  font-family: 'Work sans';
+  font-weight: 400;
+  letter-spacing: 2px;;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+.landing-hero-cta-button:hover {
+  background-color: #21386e;
+}

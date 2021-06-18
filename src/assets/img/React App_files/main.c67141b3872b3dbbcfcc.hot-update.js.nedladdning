@@ -1,0 +1,15 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/pages/realestates/RealEstates.component.jsx":
+/*!*********************************************************!*\
+  !*** ./src/pages/realestates/RealEstates.component.jsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\src\\pages\\realestates\\RealEstates.component.jsx: Unexpected token (21:6)\n\n\u001b[0m \u001b[90m 19 |\u001b[39m       axios\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'http://localhost:5000/api/realestates'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m       \u001b[33m.\u001b[39mthen(res \u001b[33m=>\u001b[39m setRealEstatesFromAPI(res\u001b[33m.\u001b[39mdata))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m       \u001b[33m.\u001b[39mthen(res \u001b[33m=>\u001b[39m console\u001b[33m.\u001b[39mlog(res)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m     }\u001b[33m,\u001b[39m [])\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[36mreturn\u001b[39m (\u001b[0m\n    at Object._raise (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:816:17)\n    at Object.raiseWithData (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:809:17)\n    at Object.raise (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:770:17)\n    at Object.unexpected (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:9896:16)\n    at Object.parseExprAtom (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:11297:20)\n    at Object.parseExprAtom (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:5245:20)\n    at Object.parseExprSubscripts (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:10869:23)\n    at Object.parseUpdate (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:10849:21)\n    at Object.parseMaybeUnary (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:10827:23)\n    at Object.parseExprOps (C:\\Users\\Marcu\\Desktop\\RealEstateApiClient\\realestateclient\\node_modules\\@babel\\parser\\lib\\index.js:10684:23)");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.c67141b3872b3dbbcfcc.hot-update.js.map
